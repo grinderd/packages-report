@@ -13,6 +13,7 @@ pack <- installed.packages()%>%as.tibble()%>%select(Package, LibPath,Version, Pr
 ##   * Version
 ##   * Priority
 ##   * Built
+##  Azaz do you see this?
 
 ## write it to data/installed-packages.csv
 
